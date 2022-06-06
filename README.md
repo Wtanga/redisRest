@@ -41,7 +41,11 @@ code: 500,
 data: {
  ’message’: ‘Error info message’
 }
+#REST запрос GET
 ![REST запрос GET](img/Screenshot_2.png)
+#REST запрос GET{id}
 ![REST запрос GET{id}](img/Screenshot_3.png)
-![REST запрос DELTE{id{](img/Screenshot_4.png)
-![REST запрос GET после GELTE](img/Screenshot_5.png)
+#REST запрос DELETE{id}
+![REST запрос DELETE{id}](img/Screenshot_4.png)
+#REST запрос GET после DELETE
+![REST запрос GET после DELETE](img/Screenshot_5.png)
