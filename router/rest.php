@@ -30,7 +30,7 @@ function route($method, $urlData) {
             'code'   => 200,
             'data'   => $keys
         ));
-        return $keys;
+        return ;
     }
 
     if ($method === 'DELETE' && count($urlData) === 1) {

@@ -41,7 +41,8 @@ $urlData = array_slice($urls, 1);
 
 if($router != "")
 {    
-    route($method, $urlData);    
+    route($method, $urlData);   
+    return; 
 }
 
 if(!isset($formDatа))
