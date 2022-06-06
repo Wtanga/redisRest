@@ -7,8 +7,8 @@
 Команда удаления: $ ./command redis delete {key}
 
 В Redis установить ttl 1 час. Дополнительно учесть возможность перехода на другое хранилище, например Memcached.
-PHP компонент не должен иметь сторонних зависимостей от библиотек(composer)(за исключением работы с Redis)
-**php redis.php add key value**
+PHP компонент не должен иметь сторонних зависимостей от библиотек(composer)(за исключением работы с Redis)  
+**php redis.php add key value**  
 **php redis.php delete key**
 
 #Задание 2. 
@@ -40,12 +40,12 @@ status: false,
 code: 500,
 data: {
  ’message’: ‘Error info message’
-}
-#REST запрос GET
-![REST запрос GET](img/Screenshot_2.png)
-#REST запрос GET{id}
-![REST запрос GET{id}](img/Screenshot_3.png)
-#REST запрос DELETE{id}
-![REST запрос DELETE{id}](img/Screenshot_4.png)
-#REST запрос GET после DELETE
+}  
+#REST запрос GET  
+![REST запрос GET](img/Screenshot_2.png)  
+#REST запрос GET{id}  
+![REST запрос GET{id}](img/Screenshot_3.png)  
+#REST запрос DELETE{id}  
+![REST запрос DELETE{id}](img/Screenshot_4.png)  
+#REST запрос GET после DELETE  
 ![REST запрос GET после DELETE](img/Screenshot_5.png)
